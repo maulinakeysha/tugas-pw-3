@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W3Schools</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="" width="45">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Tutorials
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">W3.CSS</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Exercises
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">W3.CSS</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Get Certified
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">W3.CSS</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">HTML</a></li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li><a class="dropdown-item" href="#">JavaScript</a></li>
+                            <li><a class="dropdown-item" href="#">SQL</a></li>
+                            <li><a class="dropdown-item" href="#">Python</a></li>
+                            <li><a class="dropdown-item" href="#">W3.CSS</a></li>
+                            <li><a class="dropdown-item" href="#">Bootstrap</a></li>
+                            <li><a class="dropdown-item" href="#">PHP</a></li>
+                            <li><a class="dropdown-item" href="#">Java</a></li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                <div class="btn-group">
+                    <a class="btn btn-putih"><span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#2b2b2b}</style><path d="M464 6.1c9.5-8.5 24-8.1 33 .9l8 8c9 9 9.4 23.5 .9 33l-85.8 95.9c-2.6 2.9-4.1 6.7-4.1 10.7V176c0 8.8-7.2 16-16 16H384.2c-4.6 0-8.9 1.9-11.9 5.3L100.7 500.9C94.3 508 85.3 512 75.8 512c-8.8 0-17.3-3.5-23.5-9.8L9.7 459.7C3.5 453.4 0 445 0 436.2c0-9.5 4-18.5 11.1-24.8l111.6-99.8c3.4-3 5.3-7.4 5.3-11.9V272c0-8.8 7.2-16 16-16h34.6c3.9 0 7.7-1.5 10.7-4.1L464 6.1zM432 288c3.6 0 6.7 2.4 7.7 5.8l14.8 51.7 51.7 14.8c3.4 1 5.8 4.1 5.8 7.7s-2.4 6.7-5.8 7.7l-51.7 14.8-14.8 51.7c-1 3.4-4.1 5.8-7.7 5.8s-6.7-2.4-7.7-5.8l-14.8-51.7-51.7-14.8c-3.4-1-5.8-4.1-5.8-7.7s2.4-6.7 5.8-7.7l51.7-14.8 14.8-51.7c1-3.4 4.1-5.8 7.7-5.8zM87.7 69.8l14.8 51.7 51.7 14.8c3.4 1 5.8 4.1 5.8 7.7s-2.4 6.7-5.8 7.7l-51.7 14.8L87.7 218.2c-1 3.4-4.1 5.8-7.7 5.8s-6.7-2.4-7.7-5.8L57.5 166.5 5.8 151.7c-3.4-1-5.8-4.1-5.8-7.7s2.4-6.7 5.8-7.7l51.7-14.8L72.3 69.8c1-3.4 4.1-5.8 7.7-5.8s6.7 2.4 7.7 5.8zM208 0c3.7 0 6.9 2.5 7.8 6.1l6.8 27.3 27.3 6.8c3.6 .9 6.1 4.1 6.1 7.8s-2.5 6.9-6.1 7.8l-27.3 6.8-6.8 27.3c-.9 3.6-4.1 6.1-7.8 6.1s-6.9-2.5-7.8-6.1l-6.8-27.3-27.3-6.8c-3.6-.9-6.1-4.1-6.1-7.8s2.5-6.9 6.1-7.8l27.3-6.8 6.8-27.3c.9-3.6 4.1-6.1 7.8-6.1z"/></svg> Bootcamps</span></a>
+                    <a class="btn btn-putih"><span><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><style>svg{fill:#2b2b2b}</style><path d="M190.5 68.8L225.3 128H224 152c-22.1 0-40-17.9-40-40s17.9-40 40-40h2.2c14.9 0 28.8 7.9 36.3 20.8zM64 88c0 14.4 3.5 28 9.6 40H32c-17.7 0-32 14.3-32 32v64c0 17.7 14.3 32 32 32H480c17.7 0 32-14.3 32-32V160c0-17.7-14.3-32-32-32H438.4c6.1-12 9.6-25.6 9.6-40c0-48.6-39.4-88-88-88h-2.2c-31.9 0-61.5 16.9-77.7 44.4L256 85.5l-24.1-41C215.7 16.9 186.1 0 154.2 0H152C103.4 0 64 39.4 64 88zm336 0c0 22.1-17.9 40-40 40H288h-1.3l34.8-59.2C329.1 55.9 342.9 48 357.8 48H360c22.1 0 40 17.9 40 40zM32 288V464c0 26.5 21.5 48 48 48H224V288H32zM288 512H432c26.5 0 48-21.5 48-48V288H288V512z"/></svg> Spaces</span></a>
+                </div>
+                <div class="btn-group">
+                    <a href="#" class="btn btn-hijau w-25">SignUp</a>
+                    <a href="#" class="btn btn-hijau-muda w-25">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="bottom">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="d-flex flex-nowrap">
+                    <a href="#" class="text-white mx-2">HTML</a>
+                    <a href="#" class="text-white mx-2">CSS</a>
+                    <a href="#" class="text-white mx-2">JAVASCRIPT</a>
+                    <a href="#" class="text-white mx-2">SQL</a>
+                    <a href="#" class="text-white mx-2">PTHON</a>
+                    <a href="#" class="text-white mx-2">JAVA</a>
+                    <a href="#" class="text-white mx-2">PHP</a>
+                    <a href="#" class="text-white mx-2">ASP</a>
+                    <a href="#" class="text-white mx-2">W3.CSS</a>
+                    <a href="#" class="text-white mx-2">C</a>
+                    <a href="#" class="text-white mx-2">C++</a>
+                    <a href="#" class="text-white mx-2">C#</a>
+                    <a href="#" class="text-white mx-2">BOOTSTRAP</a>
+                    <a href="#" class="text-white mx-2">REACT</a>
+                    <a href="#" class="text-white mx-2">MYSQL</a>
+                    <a href="#" class="text-white mx-2">JQUERY</a>
+                    <a href="#" class="text-white mx-2">EXCEL</a>
+                    <a href="#" class="text-white mx-2">XML</a>
+                    <a href="#" class="text-white mx-2">DJANGO</a>
+                    <a href="#" class="text-white mx-2">NODEJS</a>
+                    <a href="#" class="text-white mx-2">R</a>
+                    <a href="#" class="text-white mx-2">TYPESCRIPT</a>
+                    <a href="#" class="text-white mx-2">KOTLIN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="home" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="row pt-5 text-center">
+                <div class="col">
+                    <h1 class="text-white fw-bold display-2">Learn to Code</h1>
+                    <p class="pink fw-medium">With the world's largest web developer site.</p>
+                </div>
+            </div>
+            <div class="row pb-5 justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-10">
+                    <div class="input-group">
+                        <input type="text" class="form-control w-75" style="padding: 8px 16px; height: 43px; border-radius: 25px 0 0 25px;" placeholder="Search our tutorials, e.g. HTML">
+                        <button class="btn btn-hijau w-25" type="button"><i class="fas fa-search"></i></button>
+                    </div>
+                    <a href="#"><u class="text-white d-flex justify-content-center mt-3">Not Sure Where To Begin?</u></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="html" class="py-5 bg-hj-muda">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="display-1 fw-bold">HTML</h1>
+                    <p>The language for building web pages</p>
+                    <a href="#" class="btn btn-hijau fw-bold">Learn HTML</a><br>
+                    <a href="#" class="btn btn-kuning fw-bold">Video Tutorial</a><br>
+                    <a href="#" class="btn btn-abu fw-bold">HTML Reference</a><br>
+                    <a href="#" class="btn btn-pink fw-bold">Get Certified</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-md-5 mt-sm-4 text-lg-start">
+                    <div class="card w-75 box-abu mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Example:</h5>
+                            <img src="img/html.png" class="img-fluid" alt="">
+                            <a href="#" class="btn btn-hijau mt-3 fw-medium w-100">Try it Yourself</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="css" class="py-5 bg-kuning">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="display-1 fw-bold">CSS</h1>
+                    <p>The language for styling web pages</p>
+                    <a href="#" class="btn btn-hijau fw-bold">Learn CSS</a><br>
+                    <a href="#" class="btn btn-abu fw-bold">CSS Reference</a><br>
+                    <a href="#" class="btn btn-pink fw-bold">Get Certified</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-md-5 mt-sm-4 text-lg-start">
+                    <div class="card w-75 box-abu mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Example:</h5>
+                            <img src="img/css.png" class="img-fluid" alt="">
+                            <a href="#" class="btn btn-hijau mt-3 fw-medium w-100">Try it Yourself</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="js" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="display-1 fw-bold putih">JavaScript</h1>
+                    <p class="putih">The language for programming web pages</p>
+                    <a href="#" class="btn btn-hijau fw-bold">Learn JavaScript</a><br>
+                    <a href="#" class="btn btn-putih fw-bold">JavaScript Reference</a><br>
+                    <a href="#" class="btn btn-pink fw-bold">Get Certified</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-md-5 mt-sm-4 text-lg-start">
+                    <div class="card w-75 box-abu mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">JavaScript Example:</h5>
+                            <img src="img/js.png" class="img-fluid" alt="">
+                            <a href="#" class="btn btn-hijau mt-3 fw-medium w-100">Try it Yourself</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="py" class="py-5 bg-abu-muda">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="display-1 fw-bold">Python</h1>
+                    <p>A popular programming language</p>
+                    <a href="#" class="btn btn-hijau fw-bold">Learn Python</a><br>
+                    <a href="#" class="btn btn-abu fw-bold">Python Reference</a><br>
+                    <a href="#" class="btn btn-pink fw-bold">Get Certified</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-md-5 mt-sm-4 text-lg-start">
+                    <div class="card w-75 box-abu mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">Python Example:</h5>
+                            <img src="img/py.png" class="img-fluid" alt="">
+                            <a href="#" class="btn btn-hijau mt-3 fw-medium w-100">Try it Yourself</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sql" class="py-5 bg-biru">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center">
+                    <h1 class="display-1 fw-bold">SQL</h1>
+                    <p>A popular programming language</p>
+                    <a href="#" class="btn btn-hijau fw-bold">Learn SQL</a><br>
+                    <a href="#" class="btn btn-abu fw-bold">SQL Reference</a><br>
+                    <a href="#" class="btn btn-pink fw-bold">Get Certified</a>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 mt-md-5 mt-sm-4 text-lg-start">
+                    <div class="card w-75 box-abu mx-auto">
+                        <div class="card-body">
+                            <h5 class="card-title">SQL Example:</h5>
+                            <img src="img/sql.png" class="img-fluid" alt="">
+                            <a href="#" class="btn btn-hijau mt-3 fw-medium w-100">Try it Yourself</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="#" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-5 fw-bold">PHP</h5>
+                            <p class="card-text fw-medium">A web server programming language</p>
+                            <a href="#" class="btn btn-abu mt-3 fw-medium">Learn PHP</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-5 fw-bold">jQuery</h5>
+                            <p class="card-text fw-medium">A JS library for developing web pages</p>
+                            <a href="#" class="btn btn-abu mt-3 fw-medium">Learn jQuery</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-abu-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-5 fw-bold">Java</h5>
+                            <p class="card-text fw-medium">A programming language</p>
+                            <a href="#" class="btn btn-abu mt-3 fw-medium">Learn Java</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-5 fw-bold">C++</h5>
+                            <p class="card-text fw-medium">A programming language</p>
+                            <a href="#" class="btn btn-abu mt-3 fw-medium">Learn C++</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-5 fw-bold">W3.CSS</h5>
+                            <p class="card-text fw-medium">A CSS framework for faster and better responsive web pages</p>
+                            <a href="#" class="btn btn-abu mt-3 fw-medium">Learn W3.CSS</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-5 fw-bold">Bootstrap</h5>
+                            <p class="card-text fw-medium">A CSS framework for designing better web pages</p>
+                            <a href="#" class="btn btn-abu mt-3 fw-medium">Learn Bootstrap</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h2 class="card-title fw-bold">C</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h2 class="card-title fw-bold">C++</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">R</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Kotlin</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Node.js</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">React</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">JSON</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Vue</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">MySQL</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">XML</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Sass</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Icons</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">RWD</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Graphics</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">SVG</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Canvas</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Raspberry Pi</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Cyber Security</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Colors</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Git</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Matplotlib</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Numpy</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Pandas</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">SciPy</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">ASP</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">AngularJS</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">AppML</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Go</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">TypeScript</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Django</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">MongoDB</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Statistics</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Data Science</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-hj-muda mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">TypingSpeed</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">HowTo</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Code Game</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">Spaces</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h3 class="card-title fw-bold">PostgreSQL</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-biru mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h2 class="card-title fw-bold">Excel</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h2 class="card-title fw-bold">Google Sheets</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-pink mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h2 class="card-title fw-bold">Machine Learning</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-abu mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h2 class="card-title fw-bold">Artificial Intelligence</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 align-items-center ">
+                    <h1 class="fw-bold putih text-center display-3">Code Editor</h1>
+                    <p class="putih text-center mb-4">With our online code editor, you can edit code and view the result in your browser</p>
+                    <div class="card w-100 box-abu align-items-center">
+                        <div class="card-body">
+                            <img src="img/codeditor.png" class="img-fluid py-5" alt="">
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-hijau mt-3 fw-bold">Try Frontend Editor</a><br>
+                    <a href="#" class="btn btn-kuning fw-bold">Try Backend Editor</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 align-items-center ">
+                    <h1 class="fw-bold putih text-center display-3">W3Schools Spaces</h1>
+                    <p class="putih text-center mb-4">If you want to create your own website, check out <a href="" class="pink">W3Schools Space</a>. <br> It is free to use, and does not require any setup:
+                    </p>
+                    <div class="card w-100 box-abu align-items-center">
+                        <div class="card-body">
+                            <img src="img/wspaces.png" class="img-fluid py-5" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-dark putih">
+        <div class="container">
+            <div class="row">
+                <h1 class="fw-bold putih text-center display-3 py-5">How it works</h1><br>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-3 ">
+                    <span class="display-5 mt-3 mb-5"><i class="fas fa-solid fa-table putih"></i></span>
+                    <h4 class="my-4">1. Join W3Schools - and create a space</h4>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-3 ">
+                    <span class="display-5 mt-3 mb-5"><i class="fas fa-solid fa-table putih"></i></span>
+                    <h4 class="my-4">2. Choose a template - or start from scratch</h4>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-3 ">
+                    <span class="display-5 mt-3 mb-5"><i class="fas fa-solid fa-table putih"></i></span>
+                    <h4 class="my-4">3. Edit code directly in your browser</h4>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-3 ">
+                    <span class="display-5 mt-3 mb-5"><i class="fas fa-solid fa-table putih"></i></span>
+                    <h4 class="my-4">4. Share your web page with the world</h4>
+                </div>
+                <div class="text-center">
+                    <a href="#" class="btn btn-hijau">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-hj-muda">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="fw-bold text-center display-3">My Learning</h1><br>
+                    <p class="text-center">Track your progress with our free "My Learning" program. <br>
+                        Log in to your account, and start earning points!</p>
+                    <div class="text-center">
+                        <img src="https://www.w3schools.com/myl-green-off.png" class="w-75" alt=""><br>
+                        <a href="#" class="btn btn-hijau mt-4">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-dark putih">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="fw-bold text-center display-3">Become a PRO User</h1><br>
+                    <h4 class="text-center">
+                        <a href="#" class="pink text-decoration-none fw-medium">And unlock powerful features:</a><br>
+                        Log in to your account, and start earning points!
+                    </h4>
+                    <div class="text-center">
+                        <p>
+                            <span><i class="fas fa-solid fa-circle-check putih" style="color: #d9eee1;"></i> Browse W3Schools without ads</span><br>
+                            <span><i class="fas fa-solid fa-circle-check putih" style="color: #d9eee1;"></i> Website hosting (Includes Spaces PRO)</span><br>
+                            <span><i class="fas fa-solid fa-circle-check putih" style="color: #d9eee1;"></i> Access to our HTML Video Tutorial</span><br>
+                        </p>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-hijau mt-4">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-abu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h1 class="fw-bold text-center display-3">Color Picker</h1><br>
+                    <h4 class="text-center">W3Schools' famous color picker:</h4>
+                    <img src="https://www.w3schools.com/images/colorpicker.png" class="mt-5" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-biru">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h1 class="fw-bold text-center display-3">Code Game</h1><br>
+                    <h4 class="text-center">Help the Lynx collect pine cones!</h4>
+                    <img src="https://www.w3schools.com/images/w3lynx_200.png" class="mt-3" alt="">
+                    <div class="text-center">
+                        <a href="#" class="btn btn-abu mt-4">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <h1 class="putih fw-bold text-center display-3">Exercises and Quizzes</h1>
+                <h5 class="putih text-center">Test your skills!</h5>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-hijau mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-6 fw-bold py-4">Exercices</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="card bg-kuning mt-3 mb-3 py-4">
+                        <div class="card-body text-center">
+                            <h5 class="card-title display-6 fw-bold py-4">Quizzes</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-abu">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h1 class="fw-bold text-center display-3">Web Templates</h1><br>
+                    <h4 class="text-center">Browse our selection of free responsive HTML Templates</h4>
+                    <img src="https://www.w3schools.com/w3css_templates.jpg" class="mt-3 img-fluid w-75" alt="">
+                    <div class="text-center">
+                        <a href="#" class="btn btn-abu mt-4 w-50">Browse Templates</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-dark putih">
+        <div class="container p-5">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <h1 class="fw-bold text-start pink display-5">Kickstart your career <br>
+                        Get certified by completing a course</h1><br>
+                        <a href="#" class="btn btn-hijau">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="#" class="py-5 bg-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                    <h1 class="fw-bold text-center display-3">How To Section</h1><br>
+                    <h4 class="text-center">Code snippets for HTML, CSS and JavaScript</h4>
+                    <h5 class="text-center mb-5">For example, how to create a slideshow:</h5>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>First slide label</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Second slide label</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Third slide label</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="text-center">
+                        <a href="#" class="btn btn-abu mt-5 w-25">Learn How To</a>
+                        <h5 class="mt-5">Follow us:</h5>
+                        <span class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#282a35}</style><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></span>
+                        <span class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#282a35}</style><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg></span>
+                        <span class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><style>svg{fill:#282a35}</style><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></span>
+                        <span class="mx-3"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><style>svg{fill:#282a35}</style><path d="M524.531,69.836a1.5,1.5,0,0,0-.764-.7A485.065,485.065,0,0,0,404.081,32.03a1.816,1.816,0,0,0-1.923.91,337.461,337.461,0,0,0-14.9,30.6,447.848,447.848,0,0,0-134.426,0,309.541,309.541,0,0,0-15.135-30.6,1.89,1.89,0,0,0-1.924-.91A483.689,483.689,0,0,0,116.085,69.137a1.712,1.712,0,0,0-.788.676C39.068,183.651,18.186,294.69,28.43,404.354a2.016,2.016,0,0,0,.765,1.375A487.666,487.666,0,0,0,176.02,479.918a1.9,1.9,0,0,0,2.063-.676A348.2,348.2,0,0,0,208.12,430.4a1.86,1.86,0,0,0-1.019-2.588,321.173,321.173,0,0,1-45.868-21.853,1.885,1.885,0,0,1-.185-3.126c3.082-2.309,6.166-4.711,9.109-7.137a1.819,1.819,0,0,1,1.9-.256c96.229,43.917,200.41,43.917,295.5,0a1.812,1.812,0,0,1,1.924.233c2.944,2.426,6.027,4.851,9.132,7.16a1.884,1.884,0,0,1-.162,3.126,301.407,301.407,0,0,1-45.89,21.83,1.875,1.875,0,0,0-1,2.611,391.055,391.055,0,0,0,30.014,48.815,1.864,1.864,0,0,0,2.063.7A486.048,486.048,0,0,0,610.7,405.729a1.882,1.882,0,0,0,.765-1.352C623.729,277.594,590.933,167.465,524.531,69.836ZM222.491,337.58c-28.972,0-52.844-26.587-52.844-59.239S193.056,219.1,222.491,219.1c29.665,0,53.306,26.82,52.843,59.239C275.334,310.993,251.924,337.58,222.491,337.58Zm195.38,0c-28.971,0-52.843-26.587-52.843-59.239S388.437,219.1,417.871,219.1c29.667,0,53.307,26.82,52.844,59.239C470.715,310.993,447.538,337.58,417.871,337.58Z"/></svg></svg></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-3 bg-white">
+        <div class="container py-2">
+            <hr class="mb-5">
+            <div class="row py-1 pt-1 align-items-center text-center">
+                <div class="col-lg-2 col-md-5 col-sm-12 mx-3 mx-lg-3 mx-md-2 mx-sm-2">
+                    <a href="#" class="btn btn-hitam">Spaces</a>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-12 mx-3 mx-lg-3 mx-md-2 mx-sm-2">
+                    <a href="#" class="btn btn-hitam">Spaces</a>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-12 mx-3 mx-lg-3 mx-md-2 mx-sm-2">
+                    <a href="#" class="btn btn-hitam">Spaces</a>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-12 mx-3 mx-lg-3 mx-md-2 mx-sm-2">
+                    <a href="#" class="btn btn-hitam">Spaces</a>
+                </div>
+                <div class="col-lg-2 col-md-5 col-sm-12 mx-3 mx-lg-3 mx-md-2 mx-sm-2">
+                    <a href="#" class="btn btn-hitam">Spaces</a>
+                </div>
+            </div>
+            <hr class="mt-4">
+        </div>
+    </section>
+
+    <section class="py-2 bg-white">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-sm-3">
+                    <h5>Top Tutorials</h5>
+                    <a href="#" class="text-decoration-none abu">HTML Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">CSS Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">JavaScript Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">How To Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">SQL Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">Python Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">W3.CSS Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">Bootstrap Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">PHP Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">Java Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">C++ Tutorial</a><br>
+                    <a href="#" class="text-decoration-none abu">jQuery Tutorial</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-sm-3">
+                    <h5>Top References</h5>
+                    <a href="#" class="text-decoration-none abu">HTML References</a><br>
+                    <a href="#" class="text-decoration-none abu">CSS References</a><br>
+                    <a href="#" class="text-decoration-none abu">JavaScript References</a><br>
+                    <a href="#" class="text-decoration-none abu">SQL References</a><br>
+                    <a href="#" class="text-decoration-none abu">Python References</a><br>
+                    <a href="#" class="text-decoration-none abu">W3.CSS References</a><br>
+                    <a href="#" class="text-decoration-none abu">Bootstrap References</a><br>
+                    <a href="#" class="text-decoration-none abu">PHP References</a><br>
+                    <a href="#" class="text-decoration-none abu">HTML References</a><br>
+                    <a href="#" class="text-decoration-none abu">Java References</a><br>
+                    <a href="#" class="text-decoration-none abu">Angular References</a><br>
+                    <a href="#" class="text-decoration-none abu">jQuery References</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-sm-3">
+                    <h5>Top Examples</h5>
+                    <a href="#" class="text-decoration-none abu">HTML Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">CSS Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">JavaScript Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">How To Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">SQL Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">Python Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">W3.CSS Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">Bootstrap Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">PHP Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">Java Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">XML Examples</a><br>
+                    <a href="#" class="text-decoration-none abu">jQuery Examples</a><br>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 text-center py-sm-3">
+                    <h5>Get Certified</h5>
+                    <a href="#" class="text-decoration-none abu">HTML Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">CSS Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">JavaScript Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">Front End Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">SQL Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">Python Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">PHP Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">jQuery Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">Java Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">C++ Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">C# Certificate</a><br>
+                    <a href="#" class="text-decoration-none abu">XML Certificate</a><br>
+                </div>
+                <hr class="mt-5">
+                <div class="text-end mb-1">
+                    <a href="#" class="text-decoration-none text-black-50">FORUM </a>|
+                    <a href="#" class="text-decoration-none text-black-50">ABOUT</a>
+                </div>
+                <p class="text-center text-black-50">W3Schools is optimized for learning and training. Examples might be simplified to improve reading and learning. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using W3Schools, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+                <p class="text-center text-black-50">&copy; Copyright 2023 by Aulia Anggraeni. All Rights Reserved. <br>
+                    W3Schools is Powered by W3.CSS.</p>
+            </div>
+            <div class="w3schools-logo">
+                <img src="img/logo.png" alt="W3Schools Logo">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e28d4e5965.js" crossorigin="anonymous"></script>
+</body>
+</html>

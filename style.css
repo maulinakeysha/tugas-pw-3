@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+.hijau {
+    color: #04AA6D;
+}
+
+.bg-hijau {
+    background-color: #04AA6D;
+    color: #FFFFFF;
+}
+
+.bg-hj-muda {
+    background-color: #D9EEE1;
+}
+
+.btn-hijau {
+    background-color: #04AA6D;
+    width: 200px;
+    height: 43px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+
+.btn-hijau-muda {
+    background-color: #D9EEE1;
+    width: 200px;
+    height: 43px;
+    color: #2B2B2B;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-hijau:hover {
+    background-color: #037c50;
+    color: #FFFFFF;
+}
+
+.pink {
+    color: #FFC0C7;
+}
+
+.bg-pink {
+    background-color: #FFC0C7;
+}
+
+.btn-pink {
+    background-color: #FFC0C7;
+    width: 200px;
+    height: 43px;
+    color: #282A35;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-pink:hover {
+    background-color: #cf949b;
+
+}
+
+.kuning {
+    color: #FFF4A3;
+}
+
+.bg-kuning {
+    background-color: #FFF4A3;
+}
+
+.btn-kuning {
+    background-color: #FFF4A3;
+    width: 200px;
+    height: 43px;
+    color: #282A35;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-kuning:hover {
+    background-color: #e0d683;
+
+}
+
+.abu {
+    color: #282A35;
+}
+
+.bg-abu {
+    background-color: #E7E9EB;
+}
+
+.bg-abu-muda {
+    background-color: #F3ECEA;
+}
+
+.btn-abu {
+    background-color: #282A35;
+    width: 200px;
+    height: 43px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-abu:hover {
+    background-color: #191a20;
+    color: #FFFFFF;
+}
+
+.btn-hitam {
+    background-color: #282A35;
+    width: 200px;
+    height: 43px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-hitam:hover {
+    background-color: #04AA6D;
+    color: #FFFFFF;
+}
+
+.putih {
+    color: #FFFFFF;
+}
+
+.bg-putih {
+    background-color: #FFFFFF;
+}
+
+.btn-putih {
+    background-color: #FFFFFF;
+    width: 200px;
+    height: 43px;
+    color: #2B2B2B;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-putih:hover {
+    background-color: #dddddd;
+    color: #2B2B2B;
+}
+
+.biru {
+    color: #96D4D4;
+}
+
+.bg-biru {
+    background-color: #96D4D4;
+}
+
+.btn-biru {
+    background-color: #96D4D4;
+    width: 200px;
+    height: 43px;
+    color: #2B2B2B;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 8px 16px;
+}
+
+.btn-biru:hover {
+    background-color: #7fb3b3;
+    color: #2B2B2B;
+}
+
+.box-abu {
+    background-color: #E7E9EB;
+}
+
+#bottom {
+    background-color: #282a35;
+}
+
+#bottom a {
+    text-decoration: none;
+}
+
+.w3schools-logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.w3schools-logo img {
+    width: 60px;
+    height: 60px;
+}
